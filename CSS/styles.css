@@ -25,7 +25,7 @@ a:hover{
     /* background-image: url(../images/logo_edit.png); */
     clip-path: polygon(100% 0%, 100% 88%, 50% 100%, 0% 88%, 0% 0%);
     background-size: 100% 100%;
-    position: relative;
+    /* position: relative; */
 }
 
 .homepage:before{
@@ -125,3 +125,97 @@ a:hover{
     font-family: 'Shadows Into Light', cursive;
 }
 
+/* *****************************************brands css***************************************** */
+.brands{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    
+}
+
+
+/* *****************************************puma***************************************** */
+
+.puma img{
+    padding: 15px ;
+    border-radius: 25px;
+    transition: transform 0.5s ease-in;
+    width: 10em; 
+    height: 15em;
+} 
+.puma{
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.puma img:hover{
+    transform: scale(1.1);
+
+}
+
+.puma::-webkit-scrollbar{
+    overflow:hidden
+}
+
+/* *****************************************puma***************************************** */
+
+
+/* *****************************************nike***************************************** */
+
+.nike img{
+    padding: 15px ;
+    border-radius: 25px;
+    transition: transform 0.5s ease-in;
+    width: 10em; 
+    height: 15em;
+} 
+.nike{
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.nike img:hover{
+    transform: scale(1.1);
+
+}
+
+.nike::-webkit-scrollbar{
+    overflow:hidden
+}
+
+/* *****************************************nike***************************************** */
+
+/* *****************************************adidas***************************************** */
+
+.adidas img{
+    padding: 15px ;
+    border-radius: 25px;
+    transition: transform 0.5s ease-in;
+    width: 10em; 
+    height: 15em;
+} 
+.adidas{
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.adidas img:hover{
+    transform: scale(1.1);
+
+}
+
+.adidas::-webkit-scrollbar{
+    overflow:hidden
+}
+
+/* *****************************************adidas***************************************** */
+
+/* *****************************************brands css***************************************** */
