@@ -1,0 +1,56 @@
+.color{
+    background-color: #c4c0be;
+    }
+
+html, body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}   
+
+* {
+    font-family: 'Stiletto Skinny', sans-serif;
+    font-weight: bold;
+}  
+header .navbar {
+    background-color: #c4c0be;
+    font-size: large;
+    font-weight: bolder;
+}
+
+
+ #main-box {
+    /* background-color: #757877; */
+    margin: 5% auto;
+    height: 200;
+    width: 90%;
+    padding-left: 4%;
+    padding-right: 2%;
+}
+
+#main-img {
+    height: 575px;
+    width: 375px;
+    border: black 2.5px solid;
+}
+/* #main-img:hover {
+    border: 4px #251a18 double;
+} */
+#test {
+    width: 123;
+    height: 234;
+    background: url(../images/adidas1.webp);
+
+}
+#test:hover {
+    background: url(../images/nike1.jpeg)
+}
+
+#brand {
+    font-size: 18pt;
+    font-weight: bolder;
+    color: rgb(41, 46, 44);
+
+} 
