@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.homepage{
+    margin-top: 200px;
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(104, 107, 110, 0.719), rgba(67, 78, 80, 0.3)), url('../images/logo_edit1.png');
+    clip-path: polygon(100% 0%, 100% 88%, 50% 100%, 0% 88%, 0% 0%);
+    background-size: 100% 100%;
+}
+
+.navbar{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #385a8d;
+width:auto;
+height: 200px;
+margin:0 auto;
+border: 3px solid rgb(22, 20, 20);
+align-items: center;
+}
+
+#square1{
+    border-style: solid;
+    border: 4px;
+    border-color: black;
+    display: flex ;
+    fill:rgba(67, 78, 80, 0.3)
+}
