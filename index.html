@@ -12,31 +12,41 @@
 
 <body>
     <!-- *************************Navigation bar********************************************* -->
-   <section class="container-fluid">
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid justify-content-center align-items-center">
-            <div class="row modal-body justify-content-center align-items-center">
-                <div class="row-md-3 ml-48  m-5" id="square1">
-                    <button type="button" class="btn btn-lg btn-outline-dark"> SHOP </button>
-                </div>
+    <section class="container-fluid">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid justify-content-center align-items-center">
+                <div class="row modal-body justify-content-center align-items-center">
+                   
+                    <div class="brick">
+                        <div class="row-md-3 ml-48  m-5" id="square1">
+                            <button type="button" class="btn btn-lg btn-outline-dark"> SHOP </button>
+                        </div>
+                    </div>
 
-                <div class="row-md-3 ml-48 justify-content-center m-5" id="square2">
-                    <button type="button" class="btn btn-lg btn-outline-dark"> DROP </button>
-                </div>
+                    
+                    <div class="brick">
+                        <div class="row-md-3 ml-48 justify-content-center m-5" id="square2">
+                            <button type="button" class="btn btn-lg btn-outline-dark"> DROP </button>
+                        </div>
+                    </div>
 
-                <div class="row-md-3 ml-48 justify-content-around m-5" id="square3">
-                    <button type="button" class="btn btn-lg btn-outline-dark"> BLOG </button>
-                </div>
+                    <div class="brick">
+                        <div class="row-md-3 ml-48 justify-content-around m-5" id="square3">
+                            <button type="button" class="btn btn-lg btn-outline-dark"> BLOG </button>
+                        </div>
+                    </div>
 
-                <div class="row-md-3 ml-48 justify-content-around m-5" id="square">
-                    <button type="button" class="btn btn-lg btn-outline-dark"> LOG </button>
-                </div>
+                    <div class="brick">
+                        <div class="row-md-3 ml-48 justify-content-around m-5" id="square">
+                            <button type="button" class="btn btn-lg btn-outline-dark"> LOG </button>
+                    </div>
 
+                </div>
             </div>
-    </nav>
-   </section>
+        </nav>
+    </section>
 
-    
+
 
 
     <!--BRAND WINDOWS-->
@@ -44,40 +54,137 @@
         <div class="card bg-dark text-white d-flex justify-content-center p-2">
             <div class="card-img-overlay justify-content-center align-items-center">
                 <h3 class="card-title text-center">PUMA</h5>
-                <img src="../1.jpg" class="card-img" alt="...">
+                    <img src="../1.jpg" class="card-img" alt="...">
             </div>
         </div>
 
         <div class="card bg-dark text-white d-flex justify-content-center p-2">
             <div class="card-img-overlay">
                 <h3 class="card-title text-center">NIKE</h5>
-                <img src="../1.jpg" class="card-img" alt="...">
+                    <img src="../1.jpg" class="card-img" alt="...">
             </div>
         </div>
 
         <div class="card bg-dark text-white d-flex justify-content-center p-2">
             <div class="card-img-overlay">
                 <h3 class="card-title text-center">ADIDAS</h5>
-                <img src="../1.jpg" class="card-img" alt="...">
+                    <img src="../1.jpg" class="card-img" alt="...">
             </div>
         </div>
         <script src="./assets/script.js"></script>
 
 
+        <!--JOIN COMMUNITY BUTTONS-->
 
-        
     </section>
-    <section class="footer card-group d-flex">
-        <div class="row-2-lg">
-            <div class="col-1 container p-3 "></div>
+    <section class="text-center footer card-group d-flex justify-content-center">
+        <div class="text-center">
+
+            <h2 class="text-center">
+                Join our community
+            </h2>
         </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <a href="#" class="col btn-dark d-flex justify-content-around">LOG IN</a>
+                <a href="#" class="col btn-dark d-flex justify-content-around">SIGN UP</a>
+                <a href="#" class="col btn-dark d-flex justify-content-around">CONTACT</a>
+            </div>
+
+        </div>
+
+
+        <!--BRANDS JS FEED-->
+        <div class="brands" id="brands">
+            <div class="puma_header">
+                <h4 class="h1-text">
+                    PUMA BEST SELL OF THE WEEK
+                </h4>
+            </div>
+            <div class="puma" id="puma">
+                <!-- <img src="" alt=""> -->
+            </div>
+
+            <div class="puma_header">
+                <h4 class="h1-text">
+                    NIKE BEST SELL OF THE WEEK
+                </h4>
+            </div>
+
+            <div class="nike" id="nike">
+
+                <!-- <img src="" alt=""> -->
+            </div>
+
+            <div class="puma_header">
+                <h4 class="h1-text">
+                    ADIDAS BEST SELL OF THE WEEK
+                </h4>
+            </div>
+
+            <div class="adidas" id="adidas">
+
+                <!-- <img src="" alt=""> -->
+            </div>
+        </div>
+        <script src="./assets/script.js"></script>
+
+        <!-- *****************************************brands***************************************  -->
+        <!-- **********************************************contact form*************************************** -->
+        <section class="contact" id="contact">
+            <div class="container headings text-center">
+                <h2 class="text-center font-weight-bold">CONTACT US</h2>
+                <p class="pt-1">WE ARE HERE TO HELP YOU</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 col-1">
+                        <form>
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" id="username" placeholder="Enter Your Name"
+                                    autocomplete="off" required>
+
+                            </div>
+                            <div class="form-group">
+
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Enter email" autocomplete="off" required>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    anyone else.</small>
+                            </div>
+                            <div class="form-group">
+
+                                <input type="number" class="form-control" id="mobile" aria-describedby="emailHelp"
+                                    placeholder="Enter Your Mobile Number" autocomplete="off" required>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your number with
+                                    anyone else.</small>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" id="comment"
+                                    placeholder="Enter Your Comment"></textarea>
+                            </div>
+                            <div class="form_button d-flex justify-content-center">
+                                <button type="submit" class="btn">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
         </section>
 
+        <!-- **********************************************contact form*************************************** -->
 
-    <!-- *****************************************brands***************************************  -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+        <!-- *****************************************brands***************************************  -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
