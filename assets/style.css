@@ -49,10 +49,9 @@ align-items: center;
 
 .puma img{
     padding: 15px ;
-    border-radius: 25px;
-    transition: transform 0.5s ease-in;
-    width: 10em; 
-    height: 15em;
+    transition: transform 0.3s ease-in;
+    width: 20em; 
+    height: 25em;
 } 
 .puma{
     width: 100%;
@@ -62,7 +61,7 @@ align-items: center;
 }
 
 .puma img:hover{
-    transform: scale(1.1);
+    transform: scale(1.4);
 
 }
 
@@ -77,10 +76,9 @@ align-items: center;
 
 .nike img{
     padding: 15px ;
-    border-radius: 25px;
-    transition: transform 0.5s ease-in;
-    width: 10em; 
-    height: 15em;
+    transition: transform 0.3s ease-in;
+    width: 20em; 
+    height: 25em;
 } 
 .nike{
     width: 100%;
@@ -90,7 +88,7 @@ align-items: center;
 }
 
 .nike img:hover{
-    transform: scale(1.1);
+    transform: scale(1.4);
 
 }
 
@@ -104,10 +102,9 @@ align-items: center;
 
 .adidas img{
     padding: 15px ;
-    border-radius: 25px;
-    transition: transform 0.5s ease-in;
-    width: 10em; 
-    height: 15em;
+    transition: transform 0.3s ease-in;
+    width: 20em; 
+    height: 25em;
 } 
 .adidas{
     width: 100%;
@@ -117,7 +114,7 @@ align-items: center;
 }
 
 .adidas img:hover{
-    transform: scale(1.1);
+    transform: scale(1.4);
 
 }
 
