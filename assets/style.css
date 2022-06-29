@@ -5,9 +5,9 @@
 
 .homepage{
     margin-top: 200px;
-    width: 100%;
+    width: auto;
     height: 100vh;
-    background-image:linear-gradient(rgba(104, 107, 110, 0.719), rgba(67, 78, 80, 0.3)), url('../images/logo_edit1.png');
+    background-image:linear-gradient(rgba(104, 107, 110, 0.719), rgba(67, 78, 80, 0.3));
     clip-path: polygon(100% 0%, 100% 88%, 50% 100%, 0% 88%, 0% 0%);
     background-size: 100% 100%;
 }
