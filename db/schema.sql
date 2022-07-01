@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS cart2_db;
+
+CREATE DATABASE cart2_db;
