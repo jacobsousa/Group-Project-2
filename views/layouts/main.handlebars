@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Just Tech News</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+    <h1 class="h1">
+      <a href="/">website</a>
+    </h1>
+   <nav>
+    <a href="/">Home</a>
+    <!-- If the user is logged in, show a logout button -->
+    {{#if loggedIn}}
+    <button id="logout" class="btn-no-style">Logout</button>
+    {{else}}
+    <!-- Otherwise, show a link to login -->
+   <button>
+   <a href="/login">Login</a>
+
+   </button> 
+    {{/if}}
+  </nav>
+ 
+    </header>
+    <main>
+      {{{ body }}}
+    </main>
+    {{#if loggedIn}}
+    
+  <script src="/javasript/logout.js"></script>
+  {{/if}}
+    <footer>
+      Thanks for visiting!
+    </footer>
+  </div>
+
+</body>
+
+</html>
