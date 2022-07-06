@@ -1,8 +1,8 @@
-const splash = document.querySelector('.splash');
+const flashLogo = document.querySelector('.flash-logo');
 
-// event listener
-document.addEventListener('DOMContentLoaded', ()=> {
-    setTimeout(() => {
-        splash.classList.add('display-none');
-    }, 2500);
+// event listener for fade in
+document.addEventListener('DOMContentLoaded', () => {
+    setInterval(() => {
+        flashLogo.classList.add('display-none')
+    }, 2650)
 })
