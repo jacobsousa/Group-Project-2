@@ -113,7 +113,7 @@
 }
 /* .slideshow-content::after{
     left: 0;
-    background: linear-gradient(to right, #444 0%, transparent 100%);
+    background: linear-gradient(to right, #111 0%, transparent 100%);
 }
 .slideshow-content::before{
     right: 0;
@@ -129,6 +129,8 @@
 
 }
 @keyframes scrolling {
+    /* 0% { transform: translateX(0); }
+    100% {transform: translatex(calc(-1*20vw*9)); } */
     0% { transform: translateX(155vw); }
     100% { transform: translateX(-200vw); }
 }
