@@ -12,7 +12,7 @@ const loginFormHandler = async (event) => {
       });
   
       if (response.ok) {
-        document.location.replace('mainpage_loggedin');
+        document.location.replace('/mainpage_loggedin');
       } else {
         alert('Failed to log in.');
       }

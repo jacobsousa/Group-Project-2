@@ -1,3 +1,5 @@
+const session = require('express-session');
+
 const router = require('express').Router();
 
 
@@ -7,12 +9,14 @@ router.get('/', (req, res) => {
 });
 
 router.get('/login', (req, res) => {
-  if (req.session.loggedIn) {
-    res.redirect('/');
-    return;
-  }
-
+  // if (!req.session.loggedIn) {
+    
+  //   res.redirect('/');
+  //   return;
+  // }
+  
   res.render('login');
+  // console.log(session)
 });
 
 router.get('/contact', (req,res)=>{
@@ -28,6 +32,7 @@ router.post('/logout', (req, res) => {
   else {
     res.status(404).end();
   }
+  // console.log(session)
 });
 
 router.get('/mainpage', (req,res)=>{
@@ -37,8 +42,14 @@ router.get('/mainpage_loggedin', (req,res)=>{
   res.render('mainpage_loggedin')
 });
 
+router.get('/puma', (req,res)=>{
+  res.render('puma')
+})
 router.get('/nike', (req,res)=>{
   res.render('nike')
+})
+router.get('/adidas', (req,res)=>{
+  res.render('adidas')
 })
 
 

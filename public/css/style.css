@@ -17,10 +17,11 @@ a:hover{
 
 
 .homepage{
+   
     width: 100%;
     height: 100vh;
-	background-image:  url('../images/logo_edit1.png');
-    background:linear-gradient(#0f0c29, #302b63, #24243e);
+	background-image:  url('../images/logo6.png');
+    /* background:linear-gradient(#0f0c29, #302b63, #24243e); */
     /* background: linear-gradient(rgba(3, 50, 75, 0.3), rgba(20, 3, 59, 0.3)); */
     /* clip-path: polygon(0.25 0.05, 0.75 0.05, 1 0.5, 0.75 0.95, 0.25 0.95, 0 0.5); */
     /* background-image: url(../images/logo_edit.png); */
@@ -67,7 +68,7 @@ a:hover{
     width: 100%;
     height: auto;
     position: absolute;
-    top: 60%;
+    top: 55%;
     left:50%
     transform translate(-50%, -50%)
 }
@@ -87,7 +88,7 @@ a:hover{
 
 .center-text h2{
     color:black;
-    padding: 0 0 20px 0 ;
+    padding: 0 0 30px 0 ;
     /* font-family: 'Shadows Into Light', cursive; */
 }
 .home-buttons a{
