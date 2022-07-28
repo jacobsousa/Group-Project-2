@@ -17,11 +17,15 @@ When i want to buy best deal sneakers from different website I could be able to 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://raw.githubusercontent.com/jacobsousa/Group-Project-2/sufiyan-user-model/screenshots/Screenshot%20(122).png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://raw.githubusercontent.com/jacobsousa/Group-Project-2/sufiyan-user-model/screenshots/Screenshot%20(123).png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://raw.githubusercontent.com/jacobsousa/Group-Project-2/sufiyan-user-model/screenshots/Screenshot%20(125).png)
+
+![App Screenshot](https://raw.githubusercontent.com/jacobsousa/Group-Project-2/sufiyan-user-model/screenshots/Screenshot%20(126).png)
+
+![App Screenshot](https://raw.githubusercontent.com/jacobsousa/Group-Project-2/sufiyan-user-model/screenshots/Screenshot%20(127).png)
 
 
 
